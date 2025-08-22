@@ -49,7 +49,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, onSwitchToRegister }) => {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h2 className="login-title">Welcome Back</h2>
+        <h2 className="login-title">Welcome Back !!</h2>
         <p className="login-subtitle">Please sign in to your account</p>
         
         <form onSubmit={handleSubmit} className="login-form">
